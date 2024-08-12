@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Q-9</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body{
+            background-color: black;
+        }
+        .nax{
+            text-size: 20px;
+            text-align: center;
+            color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+   <div class="nax">
+
+        <h1> Q-9 How to change in components of React Js? </h1>
+        <p > Ans:-</p><br>
+        <p>To change the state of the React component is useful when you are working on a single page 
+            application, it simply replaces the content of the existing component for the user 
+            without reloading the webpage.  <br><br>
+
+            We have to set initial state value inside constructor function and set click event handler of the 
+            element upon which click, results in changing state. Then pass the function to the click handler 
+            and change the state of the component inside the function using setState. The setState function 
+            used to change the state of the component directly or with the callback approach as mentioned below.</p> 
+        <p style="font-size: 140%;">or</p>
+        <p>Sometimes, you want the state of two components to always change together. To do it, remove
+             state from both of them, move it to their closest common parent, and then pass it down to them 
+             via props. This is known as lifting state up, and it's one of the most common things you will do 
+             writing React code.</p>
+   </div>
+</body>
+</html>
+
